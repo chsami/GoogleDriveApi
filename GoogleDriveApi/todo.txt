@@ -1,0 +1,5 @@
+﻿Send the id of the api to the frontend inside an audio element:
+
+<audio controls>
+        <source src="https://drive.google.com/uc?export=view&id=1rswj0uKUgeoKcEaopCq_wxtzFnNYuSa8">
+</audio>
