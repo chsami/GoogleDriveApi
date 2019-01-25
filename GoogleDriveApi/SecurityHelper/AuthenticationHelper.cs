@@ -11,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace GoogleDriveApi.SecurityHelper
 {
-    public static class AuthenticateHelper
+    public class AuthenticationHelper : IAuthenticationHelper
     {
-        static string ApplicationName = "YOURAPPLICATIONNAME";
-        static string RefreshToken = "INSERTHERE";
+        static string ApplicationName = "";
+        static string RefreshToken = "";
 
-        public static DriveService Authenticate()
+        public DriveService Authenticate()
         {
             var token = new TokenResponse
             {
